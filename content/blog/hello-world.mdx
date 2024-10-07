@@ -16,3 +16,20 @@ This is `tayo.sh`
 <Callout type="warning"> This is warning</Callout>
 
 <Callout type="danger"> This is danger</Callout>
+
+## We can create cool code blocks
+
+```js {4} showLineNumbers
+import { useFloating } from "@floating-ui/react";
+
+function MyComponent() {
+  const { refs, floatingStyles } = useFloating();
+
+  return (
+    <>
+      <div ref={refs.setReference} />
+      <div ref={refs.setFloating} style={floatingStyles} />
+    </>
+  );
+}
+```
