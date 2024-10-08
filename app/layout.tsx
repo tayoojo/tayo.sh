@@ -7,8 +7,7 @@ import { Providers } from "@/components/providers";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
+  variable: "--font-geist-sans"
 });
 
 export const metadata: Metadata = {
