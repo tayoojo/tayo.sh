@@ -12,14 +12,11 @@ interface BlogPageProps {
 }
 
 export default async function BlogPage({searchParams}: BlogPageProps) {
-    const currentPage = Number(searchParams?.page) || 1;
+    /* const currentPage = Number(searchParams?.page) || 1; */
     const sortedPosts = sortPosts(posts.filter(post => post.published));
     /* const totalPages = Math.ceil(sortedPosts.length / POSTS_PER_PAGE); */
 
-    const displayPosts = sortedPosts.slice(
-        POSTS_PER_PAGE * (currentPage - 1),
-        POSTS_PER_PAGE * currentPage
-    );
+    const displayPosts = sortedPosts;
 
     return(
         <div className="container max-w-4xl py-6 lg:py-10">
