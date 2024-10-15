@@ -1,4 +1,4 @@
-"use client";
+/*"use client";
 
 import { usePathname, useSearchParams } from "next/navigation";
 import { Pagination, PaginationContent, PaginationItem, PaginationLink, PaginationPrevious, PaginationNext } from "./ui/pagination";
@@ -46,3 +46,4 @@ export function QueryPagination({totalPages, className}: QueryPaginationProps) {
         </PaginationContent>
     </Pagination>
 }
+    */

@@ -1,6 +1,6 @@
 import { posts } from "#site/content";
 import { PostItem } from "@/components/post-item";
-import { QueryPagination } from "@/components/query-pagination";
+/* import { QueryPagination } from "@/components/query-pagination"; */
 import { sortPosts } from "@/lib/utils";
 
 const POSTS_PER_PAGE = 5;
@@ -43,7 +43,6 @@ export default async function BlogPage({searchParams}: BlogPageProps) {
                         </li>
                     })}
             </ul>) : (<p>Nothing to see here</p>)}
-            <QueryPagination totalPages={totalPages} className="justify-end mt-4" />
         </div>
         );
 }
