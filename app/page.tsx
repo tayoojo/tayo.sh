@@ -26,7 +26,7 @@ export default function Home() {
     </div>
 
   </section>
-  <section className="py-6 lg:py-10 flex flex-col space-y-6 mt-60">
+  <section className="container py-6 lg:py-10 flex flex-col space-y-6 mt-60">
     <h2 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-center">
       Latest Posts
     </h2>
