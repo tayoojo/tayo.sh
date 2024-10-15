@@ -8,7 +8,7 @@ import { PostItem } from "@/components/post-item";
 export default function Home() {
   const latestPosts = sortPosts(posts).slice(0,3);
   return (<><section className="space-y-6 pb-8 pt-6 md:pb-12 md:mt-10 lg:py-32">
-    <div className="container flex flex-col gap-4 text-center">
+    <div className="flex flex-col gap-4 text-center">
       <h1 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-balance">
         tayo.sh
       </h1>
@@ -26,7 +26,7 @@ export default function Home() {
     </div>
 
   </section>
-  <section className="container max-w-4xl py-6 lg:py-10 flex flex-col space-y-6 mt-60">
+  <section className="py-6 lg:py-10 flex flex-col space-y-6 mt-60">
     <h2 className="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-black text-center">
       Latest Posts
     </h2>
