@@ -1,0 +1,61 @@
+html {
+    cursor: url("/knight_cur.png"), auto;
+}
+
+body {
+    background-color: #151515;
+    font-family: "Source Code Pro", monospace;
+    color: #ffffff;
+}
+
+.trispace-1 {
+    font-family: "Trispace", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+.title {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+nav {
+    overflow: hidden;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 200;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+}
+
+.nav-item:hover {
+    color: #ff7300;
+    font-weight: 600;
+    rotate: 10deg;
+}
+
+.hmove {
+    display: flex;
+    gap: 10pt;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+}
+
+@keyframes tickerh {
+    0% { transform: translatex(100%); }
+    100% { transform: translatex(-20%); }
+  }
+  .hmove { animation: tickerh linear 10s infinite; }
+
+  .hmove:hover { animation-play-state: paused; }
