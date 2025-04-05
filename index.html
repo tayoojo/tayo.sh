@@ -8,6 +8,22 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Trispace:wght@100..800&display=swap');
     </style>
+    <style>
+        body {
+            animation: fadeInAnimation ease 5s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -15,10 +31,26 @@
     </header>
     <nav>
         <div class="hmove">
-            <a class="nav-item" href="/blog">blog</a>
-            <a class="nav-item" href="/music">music</a>
-            <a class="nav-item" href="/contact">contact</a>
+            <a class="nav-item" href="/blog.html">blog</a>
+            <a class="nav-item" href="/music.html">music</a>
+            <a class="nav-item" href="/contact.html">contact</a>
+            <a class="nav-item" href="/gallery.html">gallery</a>
         </div>
     </nav>
+
+    <div class="gallery-content">
+        <div class="frame-wrapper">
+            <div class="frame-item">
+                <div class="item-info">"first photo"</div>
+                <img class="frame image" src="/assets/frames/vintageWoodOrnate.png" alt="">
+                <img class="test image" src="/assets/test.jpg" alt="">
+            </div>
+            <div class="frame-item">
+                <div class="item-info">"second photo"</div>
+                <img class="frame image" src="/assets/frames/vintageSilverOrnate.png" alt="">
+                <img class="test image" src="/assets/notion.png" alt="">
+            </div>
+        </div>
+    </div>
 </body>
 </html>
