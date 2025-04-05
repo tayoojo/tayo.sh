@@ -179,3 +179,71 @@ nav {
 		transform: translatey(0px);
 	}
 }
+
+#brown {
+    width: 120%;
+    rotate: 90deg;
+}
+
+#brown-info {
+    margin-top: 225px;
+}
+
+#floral {
+    width: 120%;
+
+}
+
+
+#floral-test {
+    width: 83%;
+    height: 83%;
+}
+
+#floral-item {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#golden-test {
+    width: 80%;
+    height: 100%;
+    border-radius: 16pt;
+}
+
+#golden {
+    height: 120%;
+    width: 90%;
+    margin-top: -20px;
+}
+
+#golden-info {
+    margin-top: 225px;
+}
+
+.music-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
+    cursor: url("/assets/knight_cur.png"), auto;
+}
+
+.music-wrapper:hover {
+    filter: brightness(1.1);
+    animation: float 3s ease-in-out infinite;
+}
+
+.spotify {
+    cursor: url("/assets/knight_cur.png"), auto;
+}
+
+.spotify:hover {
+    cursor: url("/assets/knight_cur.png"), auto;
+
+}
+
+#audio {
+    border-radius: 12pt; 
+    cursor: url("/assets/knight_cur.png"), auto;
+}
