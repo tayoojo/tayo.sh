@@ -10,7 +10,7 @@
     </style>
     <style>
         body {
-            animation: fadeInAnimation ease 5s;
+            animation: fadeInAnimation ease 10s;
             animation-iteration-count: 1;
             animation-fill-mode: forwards;
         }
@@ -37,7 +37,7 @@
             <a class="nav-item" href="/gallery.html">gallery</a>
         </div>
     </nav>
-
+    
     <div class="gallery-content">
         <div class="frame-wrapper">
             <div class="frame-item">
@@ -46,11 +46,36 @@
                 <img class="test image" src="/assets/test.jpg" alt="">
             </div>
             <div class="frame-item">
-                <div class="item-info">"second photo"</div>
+                <div class="item-info" id="brown-info">"second photo"</div>
+                <img class="frame image" id="brown" src="/assets/frames/brown-test.png" alt="">
+                <img class="test image" src="/assets/pixl.png" alt="">
+            </div>
+            <div class="frame-item">
+                <div class="item-info">"third photo"</div>
                 <img class="frame image" src="/assets/frames/vintageSilverOrnate.png" alt="">
                 <img class="test image" src="/assets/notion.png" alt="">
             </div>
+            <div class="frame-item" id="floral-item">
+                <div class="item-info" id="floral-info">"fourth photo"</div>
+                <img class="frame image" id="floral"src="/assets/frames/vintageFloral.png" alt="">
+                <img class="test image" id="floral-test" src="/assets/molgob.jpg" alt="">
+            </div>
+            <div class="frame-item">
+                <div class="item-info" id="golden-info">"fifth photo"</div>
+                <img class="frame image"id="golden" src="/assets/frames/goldenMetallic.png" alt="">
+                <img class="test image" id="golden-test" src="/assets/goblobe.JPG" alt="">
+            </div>
         </div>
     </div>
+    <div class="music-wrapper">
+        <iframe src="assets/sounds/silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+    <audio id="audio" autoplay loop controls> 
+        <source src="/assets/sounds/exterior_02.wav">
+    </audio>
+    </div>
+    <!--<div class="music-wrapper">
+        <iframe class="spotify" style="border-radius:12px" src="https://open.spotify.com/embed/track/79vutwlJEGbFj8z4SWxdew?utm_source=generator&theme=0" width="20%" height="100" frameBorder="0" allowfullscreen="false" allow="autoplay; clipboard-write; encrypted-media; " loading="lazy">
+        </iframe>
+    </div>-->
 </body>
 </html>
