@@ -161,7 +161,6 @@ nav {
 .frame-item:hover{
     filter: brightness(1.1);
     animation: float 3s ease-in-out infinite;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .image {
