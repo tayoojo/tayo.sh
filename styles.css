@@ -161,7 +161,6 @@ nav {
 .frame-item:hover{
     filter: brightness(1.1);
     animation: float 3s ease-in-out infinite;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .image {
@@ -245,5 +244,42 @@ nav {
 
 #audio {
     border-radius: 12pt; 
+    cursor: url("/assets/knight_cur.png"), auto;
+}
+
+
+.post-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
+    cursor: url("/assets/knight_cur.png"), auto;
+}
+
+.post {
+   justify-items: center;
+   align-items: center; 
+}
+
+.post-number {
+    color:#ff7300;
+}
+
+.post-link {
+    text-decoration: none;
+    color: #ffffff;
+    cursor: url("/assets/knight_cur.png"), auto;
+}
+
+.post-link:hover {
+    color: #ff7300;
+    text-decoration: underline;
+}
+
+.posts-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh;
     cursor: url("/assets/knight_cur.png"), auto;
 }
